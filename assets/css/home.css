@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#page-heading{
+    margin-top: 25px;
+    text-align: center;
+    color: grey;
+}
+/* contact details */
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-details-container{
+    margin: 0.5px;
+    list-style-type: none;
+    height: auto;
+    background-color: blueviolet;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 340px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-details:hover{
+    background-color: grey;
+}
+#contact-details p{
+    display: inline;
+}
+#delete-button{
+    width: 10%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#delete-button a{
+    color: white;
+    background-color: black;
+}
+#contact-details{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+form input{
+    width: 115px;
+}
